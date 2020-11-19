@@ -1,0 +1,45 @@
+@font-face{
+	font-family: lobster;
+	src:url(../../Lobsterfont/Lobster-Regular.ttf);
+}
+@font-face{
+	font-family: sanche;
+	src:url(../../Sanchezfont/Sanchez-Regular.ttf);
+}
+
+
+.logo_image{
+	width: 100px;
+	height: 90px;
+}
+.logo_style{
+	font-family: lobster;
+	margin-left: -40px;
+}
+
+.carousel_text{
+	position: absolute;
+	top: 180px;
+	left: 150px;
+}
+
+.font_style{
+	font-family: lobster;
+}
+hr.divided{
+	max-width: 6rem;
+	border-color: #71a7ac;
+	border-width: .2rem;
+}
+
+.background_img{
+	background-image: url(../images/background.jpg);
+}
+
+hr.divid{
+	max-width: 3rem;
+	border-color: white;
+}
+.San_font{
+	font-family: sanche;
+}

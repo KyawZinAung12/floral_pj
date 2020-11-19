@@ -3,10 +3,10 @@
 <head>
 	<title>Floral Shop</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<link rel="icon" type="text/css" href="bootstrap/images/logo.png">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/custom.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
 </head>
 <body>
@@ -59,18 +59,13 @@
 		</a>
 		<a href="#Carousel" class="carousel-control-next" data-slide="next">
 			<span class="carousel-control-next-icon"></span>
-		</a>
-		
+		</a>		
 	</div>
-
 	<!-- end carousel -->
 
-
 	<!-- product -->
-
 	<h3 class="text-center mt-5 pt-3"> Latest Product</h3>
 	<hr class="divided">
-
 	<div class="container my-5">
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
 			<div class="col text-center">
@@ -126,12 +121,9 @@
 			
 		</div>
 	</div>
-
 	<!-- end product -->
 
 	<!-- our shop -->
-
-
 	<div class="container-fluid background_img">
 		<div class="row">
 			<div class="col-6 col-md-3 text-white text-center my-5">
@@ -157,12 +149,10 @@
 			
 		</div>
 	</div>
-
 	<!-- end our shop -->
 
 
 	<!-- packaging -->
-
 	<div class="container my-5 pt-3">
 		<div class="row">
 			<div class="col-12 col-sm-12 col-md-6">
@@ -219,11 +209,67 @@
 			
 		</div>
 	</div>
+	<!-- end packaging -->
+
+
+
+	<!-- Partner Plugin -->
+	<div class="container my-5 pt-3">
+	  <h2 class="text-center my-5">Our  Partners</h2>
+	   <section class="customer-logos slider">
+	      <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+	      <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+	      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+	      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+	      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+	      <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+	      <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+	      <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
+	   </section>
+	</div>
+	<!-- end partner plugin -->
+
+	<!-- footer -->
+	<div class="container-fluid bg_light pt-4">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="text-center text-md-left ml-5">CopyRight @ 2020 Designed By Kyaw Zin Aung</p>
+			</div>
+			<div class="col-md-6">
+				<p class="text-center text-md-right mr-5"><i class="fab fa-facebook-square fa-2x mx-2"></i><i class="fab fa-twitter-square fa-2x mx-2"></i><i class="fab fa-instagram-square fa-2x mx-2"></i></p>
+			</div>
+		</div>
+	</div>
 
 
 
 
 	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $('.customer-logos').slick({
+		        slidesToShow: 6,
+		        slidesToScroll: 1,
+		        autoplay: true,
+		        autoplaySpeed: 1500,
+		        arrows: false,
+		        dots: false,
+		        pauseOnHover: false,
+		        responsive: [{
+		            breakpoint: 768,
+		            settings: {
+		                slidesToShow: 4
+		            }
+		        }, {
+		            breakpoint: 520,
+		            settings: {
+		                slidesToShow: 3
+		            }
+		        }]
+		    });
+		});
+	</script>
 </body>
 </html>

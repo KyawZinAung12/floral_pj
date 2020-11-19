@@ -1,0 +1,59 @@
+
+
+
+One Use
+-------
+
+=>github new create repository
+=>file path ->
+=>git init
+=>git remote add origin (url)
+=>git remote show origin
+
+------------
+=>git status
+=>git add .
+=>git status
+=>git commit -m "message"
+=>git push -u orign master
+---------------------------------------------------------------------------------------
+
+
+Muti Use
+-------
+
+
+leader
+	=>github new create repository
+	=>file path ->
+	=>git init
+	=>git remote add origin (url) Eg : https://github.com/KyawZinAung12/Testing2.git
+	=>git remote show origin
+	=>git status
+	=>git add .
+	=>git status
+	=>git commit -m "message"
+	=>git push -u orign master
+
+	->invite collabarate 
+
+	=>git status
+	=>git add .
+	=>git commit -m "message"
+	=>git pull
+	=>git push -u origin master
+
+
+
+
+
+Collabarate
+-----------
+=>git clone (url) Eg:https://github.com/KyawZinAung12/Testing2.git
+=>git status
+=>git add .
+=>git commit -m "message"
+=>git pull
+=>git push -u origin master
+
+
